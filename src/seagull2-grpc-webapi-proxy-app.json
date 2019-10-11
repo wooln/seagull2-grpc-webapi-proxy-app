@@ -1,0 +1,11 @@
+{
+	"Name": "foowebapi",
+	"DisplayName": "foowebapi(grap-proxy)",
+	"Description": "foowebapi, grpc代理成webapi服务",
+	
+	"GrpcServerEndpoint" :"localhost:8080",
+    "WebAPIPort":":8081",
+	
+	"Stderr": "C:\\builder_err.log",
+	"Stdout": "C:\\builder_out.log"
+}
