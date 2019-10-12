@@ -1,0 +1,14 @@
+{
+	"Name": "grpcwebapi",
+	"DisplayName": "grpcwebapi(grap-proxy)",
+	"Description": "grpcwebapi, grpc代理成webapi服务",
+	
+    "WebAPIPort":":8081",
+	"GrpcEndpointMapping": {
+		"Greeter" : "localhost:8080",
+		"GreeterNew" : "localhost:8080"
+	},
+	
+	"Stderr": "C:\\builder_err.log",
+	"Stdout": "C:\\builder_out.log"
+}

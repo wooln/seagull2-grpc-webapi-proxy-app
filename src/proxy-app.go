@@ -1,10 +1,20 @@
 package main
 
-import (
-	"log"
+import (	
 	proxyLib "github.com/wooln/seagull2-grpc-webapi-proxy"
+	gw "Foo_Contracts"
 )
 
 func main()  {
-	log.Printf(proxyLib.Msg)
+	actions := []proxyLib.RegisterAction {
+		proxyLib.RegisterAction{
+			gw.RegisterGreeterHandlerFromEndpoint,
+			"Greeter",
+		},		
+		proxyLib.RegisterAction{
+			gw.RegisterGreeterNewHandlerFromEndpoint,
+			"GreeterNew",
+		},		
+	}
+	proxyLib.Proxy(actions)
 }
