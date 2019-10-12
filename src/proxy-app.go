@@ -8,12 +8,12 @@ import (
 func main()  {
 	actions := []proxyLib.RegisterAction {
 		proxyLib.RegisterAction{
-			gw.RegisterGreeterHandlerFromEndpoint,
-			"Greeter",
+			Action: gw.RegisterGreeterHandlerFromEndpoint,
+			EndpointKey: "Greeter",
 		},		
 		proxyLib.RegisterAction{
-			gw.RegisterGreeterNewHandlerFromEndpoint,
-			"GreeterNew",
+			Action: gw.RegisterGreeterNewHandlerFromEndpoint,
+			EndpointKey: "GreeterNew",
 		},		
 	}
 	proxyLib.Proxy(actions)

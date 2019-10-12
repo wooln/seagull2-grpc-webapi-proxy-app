@@ -18,6 +18,10 @@ github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORN
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6SoW27p1b0cqNHllgS5HIMJraePCO15w5zCzIWYg=
+github.com/wooln/seagull2-grpc-webapi-proxy v0.0.0-20191012050137-11ceca288569 h1:jAJVGWelENkLJA19DOPh84tv76gAvlvjP2q/I7FZE50=
+github.com/wooln/seagull2-grpc-webapi-proxy v0.0.0-20191012050137-11ceca288569/go.mod h1:ouwFJQ7Gg5KoRV6yGpPLkhLCRTWVh8L9cTDsMmWlHMA=
+github.com/wooln/seagull2-grpc-webapi-proxy v0.1.0 h1:/k0JIN+pv2M3i9OwVdo2tJ+pbxQ357XeR3fR0Ym0V1M=
+github.com/wooln/seagull2-grpc-webapi-proxy v0.1.0/go.mod h1:ouwFJQ7Gg5KoRV6yGpPLkhLCRTWVh8L9cTDsMmWlHMA=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/lint v0.0.0-20181026193005-c67002cb31c3/go.mod h1:UVdnD1Gm6xHRNCYTkRU2/jEulfH38KcIWyp/GAMgvoE=
 golang.org/x/lint v0.0.0-20190313153728-d0100b6bd8b3/go.mod h1:6SW0HCj/g11FgYtHlgUYUwCkIfeOF89ocIRzGO/8vkc=
