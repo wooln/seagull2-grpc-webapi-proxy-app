@@ -1,10 +1,13 @@
 {
-	"Name": "foowebapi",
-	"DisplayName": "foowebapi(grap-proxy)",
-	"Description": "foowebapi, grpc代理成webapi服务",
+	"Name": "grpcwebapi",
+	"DisplayName": "grpcwebapi(grap-proxy)",
+	"Description": "grpcwebapi, grpc代理成webapi服务",
 	
-	"GrpcServerEndpoint" :"localhost:8080",
     "WebAPIPort":":8081",
+	"GrpcEndpointMapping": {
+		"Greeter" : "localhost:8080",
+		"GreeterNew" : "localhost:8080"
+	},
 	
 	"Stderr": "C:\\builder_err.log",
 	"Stdout": "C:\\builder_out.log"

@@ -12,4 +12,4 @@ require (
 
 replace github.com/wooln/seagull2-grpc-webapi-proxy => ../seagull2-grpc-webapi-proxy/src
 
-replace Foo_Contracts => /mnt/c/WOOLN/project/seagull2/DataGovernanceLab/Go/Foo_Contracts
+replace Foo_Contracts => ../../DataGovernanceLab/Go/Foo_Contracts //TODO 路径引用
